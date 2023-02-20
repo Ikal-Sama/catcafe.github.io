@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat|Cafe</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/5f3ab5b91c.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5f3ab5b91c.js" crossorigin="anonymous"></script>
+    <!-- =======CSS======= -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <!--NAVBAR -->
+    <nav class="navbar">
+        <h1 class="logo">CAT CAFE</h1>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Meet our Cats</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img class="menu-btn" src="./images/menu-btn.jpg" alt="">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>A Pawsome Experience</h2>
+            <div class="line"></div>
+            <h1>Enjoy A Cat’s Friendly Cafe,<br>
+                And a Good taste of Coffee
+            </h1>
+            <a href="#" class="ctn">Book a Reservation</a>
+        </div>
+    </header>
+
+    <!-- EVENTS-->
+    <section class='menu'>
+        <div class="row">
+            <div class="col content-col">
+                <h1>MENU OFFERS</h1>
+                <div class="line"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti porro est possimus expedita unde, deleniti hic blanditiis quas quo eum adipisci provident nam reprehenderit. Porro tempore dolorum eum harum facere!</p>
+                <a href="#" class="ctn">Book Now</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/bg2.jpg" alt="">
+                    <img src="./images/img1.jpg" alt="">
+                    <img src="./images/img2.jpeg" alt="">
+                    <img src="./images/img3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/event1.jpg" alt="">
+                <h4>Yoga Class</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quasi ut explicabo blanditiis culpa vitae temporibus saepe cum, illum itaque soluta maxime, voluptatibus voluptate eos nobis veritatis facilis tempore impedit?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/event2.jpg" alt="">
+                <h4>Meet up With the Cats</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim recusandae nihil molestiae eligendi in itaque cum odio quis eaque! Vel, nemo eos reprehenderit quam vitae ratione sequi mollitia dolorem quia?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class='about'>
+        <div class="about-content">
+            <h1>ABOUT US</h1>
+            <div class="line"></div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusantium et quidem nihil molestias! Provident explicabo similique aperiam, repudiandae illum inventore ipsum ut ad iure, consequuntur sapiente, animi dolore sequi.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    
+    <ssection class="footer">
+        <div class="footer-contacts">
+            <h1>CAT CAFE</h1>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-phone"></i>(619) 854-7699</a></li>
+                <li><a href="#"><i class="fa-solid fa-location-dot"></i>Day-as, Cordova, Cebu</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i>Email us</a></li>
+            </ul>
+            <p>Created by: <b>@Bancale</b></p>
+        </div>
+        <div class="footer-links">
+            <h1>LINKS</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="#">Meet our Cats</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+        </div>
+    </ssection>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', ()=> {
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
